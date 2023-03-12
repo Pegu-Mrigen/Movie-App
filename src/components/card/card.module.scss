@@ -1,0 +1,54 @@
+.root {
+  width: 250px;
+  height: 350px;
+  border: 0px solid black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.cardImg {
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+}
+.detail {
+  padding-left: 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: none;
+  background-color: rgba(25, 23, 23, 0.63);
+  background-position: 0%;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  color: white;
+  opacity: 0;
+  &:hover {
+    opacity: 1;
+  }
+  width: 100%;
+  height: 100%;
+}
+.rating {
+  font-weight: 500;
+  color: green;
+  width: 20px;
+  height: 20px;
+}
+.desc {
+  font-weight: 300;
+  width: 225px;
+  color: white;
+}
+.button {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #ac4e4e;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
